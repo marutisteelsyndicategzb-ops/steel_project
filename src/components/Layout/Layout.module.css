@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+.mainContent {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    padding-bottom: 70px; /* Space for MobileBottomNav */
+  }
+}

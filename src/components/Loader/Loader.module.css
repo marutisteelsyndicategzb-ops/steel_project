@@ -1,0 +1,213 @@
+.loaderWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  background-image: 
+    radial-gradient(circle at 2px 2px, rgba(30, 58, 138, 0.05) 1px, transparent 0);
+  background-size: 40px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  position: relative;
+}
+
+.metalSheet {
+  position: relative;
+  width: 400px;
+  height: 160px;
+  background: linear-gradient(
+    135deg, 
+    #ffffff 0%, 
+    #f8fafc 20%, 
+    #f1f5f9 40%, 
+    #e2e8f0 60%, 
+    #f1f5f9 80%, 
+    #ffffff 100%
+  );
+  background-size: 400% 400%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 
+    0 20px 40px rgba(30, 58, 138, 0.1),
+    inset 0 0 20px rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(30, 58, 138, 0.1);
+  animation: bgShift 8s ease infinite;
+}
+
+.metalSheet::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+}
+
+.metalSheet::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(0,0,0,0.01) 0px,
+    rgba(0,0,0,0.01) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+}
+
+.glowLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(59, 130, 246, 0.2), transparent);
+  animation: sheen 3s infinite ease-in-out;
+  z-index: 2;
+  transform: skewX(-20deg);
+}
+
+.logoText {
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+
+.brandMain {
+  font-size: 2.25rem;
+  font-weight: 900;
+  background: linear-gradient(
+    to right,
+    #1e3a8a 0%,
+    #1e3a8a 40%,
+    #3b82f6 50%,
+    #1e3a8a 60%,
+    #1e3a8a 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 6px;
+  animation: textShimmer 4s linear infinite;
+}
+
+@keyframes textShimmer {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.brandSub {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #64748b;
+  letter-spacing: 12px;
+  margin-top: 0.5rem;
+  margin-right: -12px;
+}
+
+.progressBarContainer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.progressBar {
+  width: 100%;
+  height: 2px;
+  background: rgba(30, 58, 138, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.progressFill {
+  width: 100%;
+  height: 100%;
+  background: #1e3a8a;
+  box-shadow: 0 0 10px rgba(30, 58, 138, 0.3);
+  animation: progressFillMove 2.5s infinite ease-in-out;
+}
+
+.statusText {
+  color: #64748b;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  opacity: 0.8;
+  text-align: center;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes bgShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes sheen {
+  0% { left: -100%; }
+  100% { left: 200%; }
+}
+
+@keyframes progressFillMove {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+@media (max-width: 480px) {
+  .metalSheet {
+    width: 300px;
+    height: 130px;
+  }
+  
+  .brandMain {
+    font-size: 1.75rem;
+  }
+  
+  .brandSub {
+    font-size: 0.8rem;
+    letter-spacing: 8px;
+  }
+  
+  .progressBarContainer {
+    width: 260px;
+  }
+
+  .statusText {
+    letter-spacing: 4px;
+    font-size: 0.7rem;
+    white-space: nowrap;
+  }
+}
