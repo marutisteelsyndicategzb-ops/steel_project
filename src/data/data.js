@@ -18,9 +18,9 @@ export const companyDetails = {
 
 export const management = [
   { name: "Mr. Vijay Singhal", role: "Founder" },
-  { name: "Mr. Ushank Singhal", role: "Management" },
-  { name: "Mr. Harshit Singhal", role: "Management" },
-  { name: "Mr. Shivam Singhal", role: "Management" }
+  { name: "Mr. Ushank Singhal", role: "Sales Head" },
+  { name: "Mr. Harshit Singhal", role: "Production Head" },
+  { name: "Mr. Shivam Singhal", role: "Accounts and Marketing Head" }
 ];
 
 export const products = [
