@@ -138,7 +138,13 @@ const About = () => {
           <div className={styles.managementGrid}>
             {management.map((member, index) => (
               <div key={index} className={styles.managementCard}>
-                <div className={styles.memberIcon}><User size={40} /></div>
+                <div className={styles.imageContainer}>
+                  {member.image ? (
+                    <img src={member.image} alt={member.name} className={styles.memberImage} />
+                  ) : (
+                    <div className={styles.memberIcon}><User size={40} /></div>
+                  )}
+                </div>
                 <h3>{member.name}</h3>
                 <p className={styles.memberRole}>{member.role}</p>
               </div>

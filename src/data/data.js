@@ -2,6 +2,12 @@ import crSheetsImg from '../assets/cr-sheets.png';
 import hrSheetsImg from '../assets/hr-sheets.png';
 import chequeredSheetsImg from '../assets/chequered-sheets.png';
 
+// Import core leadership images
+import vijayImg from '../assets/core_leaderships/Vijay_Singhal.jpeg';
+import ushankImg from '../assets/core_leaderships/Ushank_Singhal.jpeg';
+import harshitImg from '../assets/core_leaderships/Harshit_Singhal.jpeg';
+import shivamImg from '../assets/core_leaderships/Shivam_Singhal.jpeg';
+
 export const companyDetails = {
   name: "Maruti Steel Syndicate",
   shortName: "MSS",
@@ -17,10 +23,10 @@ export const companyDetails = {
 };
 
 export const management = [
-  { name: "Mr. Vijay Singhal", role: "Founder and Managing Director" },
-  { name: "Mr. Ushank Singhal", role: "Sales Head" },
-  { name: "Mr. Harshit Singhal", role: "Production Head" },
-  { name: "Mr. Shivam Singhal", role: "Accounts and Marketing Head" }
+  { name: "Mr. Vijay Singhal", role: "Founder and Managing Director", image: vijayImg },
+  { name: "Mr. Ushank Singhal", role: "Sales Head", image: ushankImg },
+  { name: "Mr. Harshit Singhal", role: "Production Head", image: harshitImg },
+  { name: "Mr. Shivam Singhal", role: "Accounts and Marketing Head", image: shivamImg }
 ];
 
 export const products = [
