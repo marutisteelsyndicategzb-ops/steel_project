@@ -3,7 +3,7 @@ import hrSheetsImg from '../assets/hr-sheets.png';
 import chequeredSheetsImg from '../assets/chequered-sheets.png';
 
 // Import core leadership images
-import vijayImg from '../assets/core_leaderships/Vijay_Singhal.jpeg';
+import vijayImg from '../assets/core_leaderships/Vijay_Singhal.png';
 import ushankImg from '../assets/core_leaderships/Ushank_Singhal.jpeg';
 import harshitImg from '../assets/core_leaderships/Harshit_Singhal.jpeg';
 import shivamImg from '../assets/core_leaderships/Shivam_Singhal.jpeg';
