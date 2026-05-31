@@ -20,14 +20,14 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Helmet>
-        <title>Maruti Steel Syndicate | Leading Steel Supplier in Ghaziabad, NCR</title>
-        <meta name="description" content="Premium CR Sheets, HR Sheets, and Chequered Sheets from Maruti Steel Syndicate. Leading industrial steel distributor in Ghaziabad, Loha Mandi, and North India." />
-        <meta name="keywords" content="Maruti Steel Syndicate, CR Sheets Ghaziabad, HR Sheets NCR, Chequered Sheets North India, Industrial Steel Supplier Loha Mandi, Steel Distributor Uttar Pradesh, JSW Steel, Tata Steel" />
+        <title>Maruti Steel Syndicate (MSS) | Best Steel Sheet Dealer in Ghaziabad</title>
+        <meta name="description" content="Maruti Steel Syndicate (MSS) is the premier steel sheet dealer in Ghaziabad. Supplying top quality CR sheets, HR sheets, and Chequered sheets at the best wholesale prices in Loha Mandi, Ghaziabad." />
+        <meta name="keywords" content="MSS, MSS Ghaziabad, Maruti Steel Syndicate, Maruti Steel Syndicate Ghaziabad, Best CR Sheet in Ghaziabad, Best HR Sheet in Ghaziabad, Best Steel Sheet Dealer in Ghaziabad, Best Steel Sheets in Ghaziabad, CR Sheet Dealer Ghaziabad, HR Sheet Dealer Ghaziabad, Chequered Sheet Dealer Ghaziabad" />
         <link rel="canonical" href="https://marutisteelsyndicate.com/" />
         
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Maruti Steel Syndicate | Leading Steel Supplier in Ghaziabad, NCR" />
-        <meta property="og:description" content="Premium CR, HR, and Chequered sheets from Maruti Steel Syndicate. Trusted steel excellence for 40+ years in North India." />
+        <meta property="og:title" content="Maruti Steel Syndicate (MSS) | Best Steel Sheet Dealer in Ghaziabad" />
+        <meta property="og:description" content="Maruti Steel Syndicate (MSS) is the premier steel sheet dealer in Ghaziabad. Wholesale suppliers of high-grade CR sheets, HR sheets, and Chequered sheets." />
         <meta property="og:url" content="https://marutisteelsyndicate.com/" />
         
         {/* JSON-LD Structured Data */}
@@ -35,40 +35,122 @@ const Home = () => {
           {`
             {
               "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Maruti Steel Syndicate",
-              "image": "https://marutisteelsyndicate.com/logo.png",
-              "@id": "https://marutisteelsyndicate.com/",
-              "url": "https://marutisteelsyndicate.com/",
-              "telephone": "+919021554396",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "76 & 24, Loha Mandi, Bulandshahr Road Industrial Area",
-                "addressLocality": "Ghaziabad",
-                "addressRegion": "Uttar Pradesh",
-                "postalCode": "201009",
-                "addressCountry": "IN"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 28.6458472,
-                "longitude": 77.4504791
-              },
-              "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday"
-                ],
-                "opens": "09:00",
-                "closes": "18:00"
-              },
-              "sameAs": [
-                "https://marutisteelsyndicate.com/"
+              "@graph": [
+                {
+                  "@type": "LocalBusiness",
+                  "@id": "https://marutisteelsyndicate.com/#localbusiness",
+                  "name": "Maruti Steel Syndicate",
+                  "alternateName": ["MSS", "MSS Ghaziabad"],
+                  "image": "https://marutisteelsyndicate.com/logo.png",
+                  "url": "https://marutisteelsyndicate.com/",
+                  "telephone": "+919021554396",
+                  "email": "marutisteelsyndicategzb@gmail.com",
+                  "priceRange": "INR",
+                  "founder": {
+                    "@type": "Person",
+                    "name": "Mr. Vijay Singhal"
+                  },
+                  "foundingDate": "1984",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "76 & 24, Loha Mandi, Bulandshahr Road Industrial Area",
+                    "addressLocality": "Ghaziabad",
+                    "addressRegion": "Uttar Pradesh",
+                    "postalCode": "201009",
+                    "addressCountry": "IN"
+                  },
+                  "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 28.6458472,
+                    "longitude": 77.4504791
+                  },
+                  "hasMap": "https://maps.app.goo.gl/uRauDjiwAgDvQ16w7",
+                  "areaServed": [
+                    {
+                      "@type": "AdministrativeArea",
+                      "name": "Ghaziabad"
+                    },
+                    {
+                      "@type": "AdministrativeArea",
+                      "name": "Noida"
+                    },
+                    {
+                      "@type": "AdministrativeArea",
+                      "name": "Delhi NCR"
+                    },
+                    {
+                      "@type": "AdministrativeArea",
+                      "name": "North India"
+                    }
+                  ],
+                  "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                      "Monday",
+                      "Tuesday",
+                      "Wednesday",
+                      "Thursday",
+                      "Friday",
+                      "Saturday"
+                    ],
+                    "opens": "09:00",
+                    "closes": "18:00"
+                  },
+                  "sameAs": [
+                    "https://marutisteelsyndicate.com/",
+                    "https://www.linkedin.com/company/maruti-steel-syndicate/"
+                  ]
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://marutisteelsyndicate.com/#website",
+                  "url": "https://marutisteelsyndicate.com/",
+                  "name": "Maruti Steel Syndicate",
+                  "alternateName": ["MSS", "MSS Ghaziabad"],
+                  "description": "Premium industrial CR Sheets, HR Sheets, and Chequered Sheets supplier in Ghaziabad.",
+                  "publisher": {
+                    "@id": "https://marutisteelsyndicate.com/#localbusiness"
+                  },
+                  "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": {
+                      "@type": "EntryPoint",
+                      "urlTemplate": "https://marutisteelsyndicate.com/products?search={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                  }
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "@id": "https://marutisteelsyndicate.com/#navigation",
+                  "name": "Home",
+                  "url": "https://marutisteelsyndicate.com/"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "name": "About Us",
+                  "url": "https://marutisteelsyndicate.com/about"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "name": "Cold Rolled (CR) Sheets",
+                  "url": "https://marutisteelsyndicate.com/products/cr-sheets"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "name": "Hot Rolled (HR) Sheets",
+                  "url": "https://marutisteelsyndicate.com/products/hr-sheets"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "name": "Chequered Sheets",
+                  "url": "https://marutisteelsyndicate.com/products/chequered-sheets"
+                },
+                {
+                  "@type": "SiteNavigationElement",
+                  "name": "Contact",
+                  "url": "https://marutisteelsyndicate.com/contact"
+                }
               ]
             }
           `}
@@ -158,7 +240,7 @@ const Home = () => {
               </Link>
             </div>
             <div className={styles.aboutImage}>
-              <img src={homeAboutImg} alt="Industrial Excellence" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} />
+              <img src={homeAboutImg} alt="Maruti Steel Syndicate - Premium Steel Sheet Dealer in Ghaziabad" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} />
             </div>
           </div>
         </div>
@@ -175,7 +257,7 @@ const Home = () => {
             {products.map((product) => (
               <div key={product.id} className={styles.productCard}>
                 <div className={styles.productCardImage}>
-                  <img src={product.image} alt={product.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src={product.image} alt={`${product.name} - Best Steel Sheets in Ghaziabad - Maruti Steel Syndicate`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
                 <div className={styles.productCardContent}>
                   <h3>{product.name}</h3>

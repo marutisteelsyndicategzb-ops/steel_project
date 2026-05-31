@@ -75,14 +75,14 @@ const Contact = () => {
   return (
     <div className={styles.contactPage}>
       <Helmet>
-        <title>Contact Us | Maruti Steel Syndicate | Ghaziabad</title>
-        <meta name="description" content="Get in touch with Maruti Steel Syndicate. Trusted steel distributor in Ghaziabad, NCR. Contact us for inquiries, quotes, and industrial steel solutions." />
-        <meta name="keywords" content="Contact Maruti Steel Syndicate, Steel Supplier Phone Number, Steel Distributor Ghaziabad Address, Loha Mandi Steel Quotes, Buy CR Sheets NCR, Buy HR Sheets North India" />
+        <title>Contact Maruti Steel Syndicate | Steel Sheet Dealer in Ghaziabad (MSS)</title>
+        <meta name="description" content="Contact Maruti Steel Syndicate (MSS Ghaziabad), the best steel sheet dealer in Ghaziabad, for bulk quotes on CR sheets, HR sheets, and Chequered sheets. Visit our Head Office in Loha Mandi or Call +91 90215 54396." />
+        <meta name="keywords" content="Contact Maruti Steel Syndicate, MSS Ghaziabad Contact, Steel Supplier Phone Number Ghaziabad, Loha Mandi Steel Quotes, Buy CR Sheets NCR, Buy HR Sheets North India, steel sheet dealer Ghaziabad" />
         <link rel="canonical" href="https://marutisteelsyndicate.com/contact" />
         
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Contact Maruti Steel Syndicate | Get a Quote" />
-        <meta property="og:description" content="Contact us for inquiries, quotes, and premium industrial steel solutions in Ghaziabad, NCR." />
+        <meta property="og:title" content="Contact Maruti Steel Syndicate | Steel Sheet Dealer in Ghaziabad (MSS)" />
+        <meta property="og:description" content="Contact Maruti Steel Syndicate (MSS Ghaziabad) for premium industrial steel sheets bulk pricing and customized shearing quotes." />
         <meta property="og:url" content="https://marutisteelsyndicate.com/contact" />
         
         {/* JSON-LD Structured Data */}
@@ -90,24 +90,48 @@ const Contact = () => {
           {`
             {
               "@context": "https://schema.org",
-              "@type": "ContactPage",
-              "name": "Contact Maruti Steel Syndicate",
-              "description": "Contact details and inquiry form for Maruti Steel Syndicate.",
-              "url": "https://marutisteelsyndicate.com/contact",
-              "mainEntity": {
-                "@type": "LocalBusiness",
-                "name": "Maruti Steel Syndicate",
-                "telephone": "+919021554396",
-                "email": "marutisteelsyndicategzb@gmail.com",
-                "address": {
-                  "@type": "PostalAddress",
-                  "streetAddress": "76 & 24, Loha Mandi, Bulandshahr Road Industrial Area",
-                  "addressLocality": "Ghaziabad",
-                  "addressRegion": "Uttar Pradesh",
-                  "postalCode": "201009",
-                  "addressCountry": "IN"
+              "@graph": [
+                {
+                  "@type": "ContactPage",
+                  "@id": "https://marutisteelsyndicate.com/contact/#webpage",
+                  "url": "https://marutisteelsyndicate.com/contact",
+                  "name": "Contact Maruti Steel Syndicate",
+                  "description": "Contact details and bulk pricing inquiry form for Maruti Steel Syndicate (MSS Ghaziabad), the premier steel sheet dealer in Ghaziabad.",
+                  "breadcrumb": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://marutisteelsyndicate.com/"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Contact Us",
+                        "item": "https://marutisteelsyndicate.com/contact"
+                      }
+                    ]
+                  },
+                  "mainEntity": {
+                    "@type": "LocalBusiness",
+                    "@id": "https://marutisteelsyndicate.com/#localbusiness",
+                    "name": "Maruti Steel Syndicate",
+                    "alternateName": ["MSS", "MSS Ghaziabad"],
+                    "telephone": "+919021554396",
+                    "email": "marutisteelsyndicategzb@gmail.com",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "streetAddress": "76 & 24, Loha Mandi, Bulandshahr Road Industrial Area",
+                      "addressLocality": "Ghaziabad",
+                      "addressRegion": "Uttar Pradesh",
+                      "postalCode": "201009",
+                      "addressCountry": "IN"
+                    }
+                  }
                 }
-              }
+              ]
             }
           `}
         </script>

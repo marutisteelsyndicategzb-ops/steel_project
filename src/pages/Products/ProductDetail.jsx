@@ -20,17 +20,39 @@ const ProductDetail = () => {
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 
+  let pageTitle = '';
+  let pageDescription = '';
+  let pageKeywords = '';
+
+  if (product.slug === 'cr-sheets') {
+    pageTitle = 'Best CR Sheet in Ghaziabad | Cold Rolled Sheet Dealer - Maruti Steel Syndicate (MSS)';
+    pageDescription = 'Looking for the best CR Sheet in Ghaziabad? Maruti Steel Syndicate (MSS) is the leading CR sheet dealer in Ghaziabad, supplying premium-grade IS 513 cold-rolled steel sheets with superior surface finish and precise tolerances.';
+    pageKeywords = 'Best CR Sheet in Ghaziabad, CR Sheet Dealer Ghaziabad, Cold Rolled Steel Sheets, Maruti Steel Syndicate Ghaziabad, MSS Ghaziabad, CR Sheet price Ghaziabad, Loha Mandi CR sheets';
+  } else if (product.slug === 'hr-sheets') {
+    pageTitle = 'Best HR Sheet in Ghaziabad | Hot Rolled Sheet & Plate Dealer - Maruti Steel Syndicate (MSS)';
+    pageDescription = 'Get the best HR Sheet in Ghaziabad from Maruti Steel Syndicate (MSS), the leading HR sheet dealer in Ghaziabad. Supplying robust IS 2062/ASTM A36 Hot Rolled steel sheets & plates for structural use.';
+    pageKeywords = 'Best HR Sheet in Ghaziabad, HR Sheet Dealer Ghaziabad, Hot Rolled Steel Sheets, Maruti Steel Syndicate Ghaziabad, MSS Ghaziabad, HR Sheet price Loha Mandi';
+  } else if (product.slug === 'chequered-sheets') {
+    pageTitle = 'Chequered Sheet Dealer Ghaziabad | Premium Anti-Skid Sheets - Maruti Steel Syndicate (MSS)';
+    pageDescription = 'Premier Chequered Sheet dealer in Ghaziabad. Maruti Steel Syndicate (MSS Ghaziabad) offers high-quality, anti-slip patterned steel sheets for industrial safety, flooring, and staircases. Contact us for bulk prices.';
+    pageKeywords = 'Chequered Sheet Dealer Ghaziabad, Chequered Sheets, Anti-skid Steel Plates, Maruti Steel Syndicate Ghaziabad, MSS Ghaziabad, Chequered sheets Ghaziabad price';
+  } else {
+    pageTitle = `${product.name} | Premium Steel Supplier in Ghaziabad, NCR | Maruti Steel Syndicate`;
+    pageDescription = `Buy ${product.name} in Ghaziabad, NCR, and North India. ${product.shortDescription} Best prices for industrial steel.`;
+    pageKeywords = `${product.name}, Buy ${product.name} Ghaziabad, ${product.name} supplier NCR, ${product.name} price Loha Mandi, Maruti Steel Syndicate`;
+  }
+
   return (
     <div className={styles.productPage}>
       <Helmet>
-        <title>{product.name} | Premium Steel Supplier in Ghaziabad, NCR | Maruti Steel Syndicate</title>
-        <meta name="description" content={`Buy ${product.name} in Ghaziabad, NCR, and North India. ${product.shortDescription} Best prices for industrial steel.`} />
-        <meta name="keywords" content={`${product.name}, Buy ${product.name} Ghaziabad, ${product.name} supplier NCR, ${product.name} price Loha Mandi, Maruti Steel Syndicate`} />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+        <meta name="keywords" content={pageKeywords} />
         <link rel="canonical" href={`https://marutisteelsyndicate.com/products/${product.slug}`} />
         
         {/* Open Graph Tags */}
-        <meta property="og:title" content={`${product.name} | Maruti Steel Syndicate`} />
-        <meta property="og:description" content={`Buy ${product.name} in Ghaziabad, NCR, and North India. ${product.shortDescription}`} />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
         <meta property="og:url" content={`https://marutisteelsyndicate.com/products/${product.slug}`} />
         
         {/* JSON-LD Structured Data */}
@@ -38,26 +60,34 @@ const ProductDetail = () => {
           {`
             {
               "@context": "https://schema.org/",
-              "@type": "Product",
-              "name": "${product.name}",
-              "image": "https://marutisteelsyndicate.com${product.image}",
-              "description": "${product.shortDescription}",
-              "brand": {
-                "@type": "Brand",
-                "name": "Maruti Steel Syndicate"
-              },
-              "offers": {
-                "@type": "Offer",
-                "url": "https://marutisteelsyndicate.com/products/${product.slug}",
-                "priceCurrency": "INR",
-                "price": "Call for Price",
-                "itemCondition": "https://schema.org/NewCondition",
-                "availability": "https://schema.org/InStock",
-                "seller": {
-                  "@type": "Organization",
-                  "name": "Maruti Steel Syndicate"
+              "@graph": [
+                {
+                  "@type": "Product",
+                  "@id": "https://marutisteelsyndicate.com/products/${product.slug}/#product",
+                  "name": "${product.name}",
+                  "image": "https://marutisteelsyndicate.com${product.image}",
+                  "description": "${product.shortDescription}",
+                  "brand": {
+                    "@type": "Brand",
+                    "name": "Maruti Steel Syndicate"
+                  },
+                  "offers": {
+                    "@type": "AggregateOffer",
+                    "url": "https://marutisteelsyndicate.com/products/${product.slug}",
+                    "priceCurrency": "INR",
+                    "lowPrice": "Call for Price",
+                    "highPrice": "Call for Price",
+                    "offerCount": "1",
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock",
+                    "seller": {
+                      "@type": "Organization",
+                      "name": "Maruti Steel Syndicate",
+                      "@id": "https://marutisteelsyndicate.com/#localbusiness"
+                    }
+                  }
                 }
-              }
+              ]
             }
           `}
         </script>
@@ -75,7 +105,7 @@ const ProductDetail = () => {
             <div className={styles.productContent}>
               {/* 1. Image */}
               <div className={styles.productImageContainer}>
-                <img src={product.image} alt={product.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src={product.image} alt={`${product.name} supplier in Ghaziabad - Maruti Steel Syndicate`} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               
               {/* 2. Inquiry Card (Moved here for better mobile flow) */}

@@ -9,15 +9,74 @@ const Products = () => {
   return (
     <div className={styles.productsPage}>
       <Helmet>
-        <title>Industrial Steel Products | CR Sheets, HR Sheets, Chequered Sheets | Ghaziabad</title>
-        <meta name="description" content="Explore Maruti Steel Syndicate's premium steel catalog featuring CR Sheets, HR Sheets, and Chequered Sheets. Wholesale steel supplier in NCR and North India." />
-        <meta name="keywords" content="Steel Products Ghaziabad, Buy CR Sheets NCR, Buy HR Sheets Loha Mandi, Chequered Sheets North India, Industrial Steel Distributor" />
+        <title>Best CR Sheets, HR Sheets & Chequered Sheets in Ghaziabad | MSS</title>
+        <meta name="description" content="Browse the premium industrial steel catalog of Maruti Steel Syndicate (MSS Ghaziabad). Best steel sheet dealer in Ghaziabad supplying high-quality, authentic Cold Rolled, Hot Rolled, and anti-slip Chequered sheets." />
+        <meta name="keywords" content="Best Steel Sheets in Ghaziabad, Best CR Sheet in Ghaziabad, Best HR Sheet in Ghaziabad, CR Sheet Dealer Ghaziabad, HR Sheet Dealer Ghaziabad, Chequered Sheet Dealer Ghaziabad, MSS Ghaziabad products" />
         <link rel="canonical" href="https://marutisteelsyndicate.com/products" />
         
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Industrial Steel Products | Maruti Steel Syndicate" />
-        <meta property="og:description" content="Explore Maruti Steel Syndicate's premium steel catalog featuring CR Sheets, HR Sheets, and Chequered Sheets." />
+        <meta property="og:title" content="Best CR Sheets, HR Sheets & Chequered Sheets in Ghaziabad | MSS" />
+        <meta property="og:description" content="Browse the premium industrial steel catalog of Maruti Steel Syndicate (MSS Ghaziabad). Best wholesale rates for CR, HR, and Chequered Sheets." />
         <meta property="og:url" content="https://marutisteelsyndicate.com/products" />
+
+        {/* JSON-LD Structured Data */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "CollectionPage",
+                  "@id": "https://marutisteelsyndicate.com/products/#webpage",
+                  "url": "https://marutisteelsyndicate.com/products",
+                  "name": "CR Sheets, HR Sheets & Chequered Sheets | Maruti Steel Syndicate",
+                  "description": "Premium industrial steel products catalog featuring Cold Rolled (CR) Sheets, Hot Rolled (HR) Sheets and Plates, and anti-slip Chequered Sheets.",
+                  "breadcrumb": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://marutisteelsyndicate.com/"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Products",
+                        "item": "https://marutisteelsyndicate.com/products"
+                      }
+                    ]
+                  },
+                  "mainEntity": {
+                    "@type": "ItemList",
+                    "numberOfItems": 3,
+                    "itemListElement": [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "url": "https://marutisteelsyndicate.com/products/cr-sheets",
+                        "name": "Cold Rolled (CR) Sheets"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "url": "https://marutisteelsyndicate.com/products/hr-sheets",
+                        "name": "Hot Rolled (HR) Sheets and Plates"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "url": "https://marutisteelsyndicate.com/products/chequered-sheets",
+                        "name": "Chequered Sheets"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          `}
+        </script>
       </Helmet>
 
       <section className="page-header">
@@ -33,7 +92,7 @@ const Products = () => {
             {products.map((product) => (
               <div key={product.id} className={styles.productCard}>
                 <div className={styles.productCardImage}>
-                  <img src={product.image} alt={product.name} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
+                  <img src={product.image} alt={`Best ${product.name} in Ghaziabad - Maruti Steel Syndicate`} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
                 </div>
                 <div className={styles.productCardContent}>
                   <h3>{product.name}</h3>

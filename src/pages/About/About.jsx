@@ -11,14 +11,14 @@ const About = () => {
   return (
     <div className={styles.aboutPage}>
       <Helmet>
-        <title>About Us | Maruti Steel Syndicate | Ghaziabad</title>
-        <meta name="description" content="Discover Maruti Steel Syndicate's 40+ year legacy as a trusted Iron and Steel distributor in Ghaziabad, NCR. Top quality CR & HR Sheets at the best prices." />
-        <meta name="keywords" content="About Maruti Steel Syndicate, Iron and steel trading companies in North India, Steel Distributor Ghaziabad, Loha Mandi Steel Supplier, CR Sheets, HR Sheets" />
+        <title>About Us | Maruti Steel Syndicate Ghaziabad | 40+ Years of Steel Excellence</title>
+        <meta name="description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), the premier steel sheet dealer in Ghaziabad. Leading wholesale distributor of authentic CR, HR, and Chequered sheets in Loha Mandi." />
+        <meta name="keywords" content="About Maruti Steel Syndicate, MSS Ghaziabad, Steel Distributor Ghaziabad, Loha Mandi Steel Supplier, CR Sheets, HR Sheets, Chequered Sheets, Steel Sheet Dealer Ghaziabad" />
         <link rel="canonical" href="https://marutisteelsyndicate.com/about" />
         
         {/* Open Graph Tags */}
-        <meta property="og:title" content="About Us | Maruti Steel Syndicate" />
-        <meta property="og:description" content="Discover Maruti Steel Syndicate's 40+ year legacy as a trusted Iron and Steel distributor in Ghaziabad, NCR." />
+        <meta property="og:title" content="About Us | Maruti Steel Syndicate Ghaziabad | 40+ Years of Steel Excellence" />
+        <meta property="og:description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), the premier steel sheet dealer in Ghaziabad." />
         <meta property="og:url" content="https://marutisteelsyndicate.com/about" />
         
         {/* JSON-LD Structured Data */}
@@ -26,10 +26,47 @@ const About = () => {
           {`
             {
               "@context": "https://schema.org",
-              "@type": "AboutPage",
-              "name": "About Maruti Steel Syndicate",
-              "description": "Founded by Mr. Vijay Singhal, Maruti Steel Syndicate has played a pivotal role in transforming steel distribution in North India since 1984.",
-              "url": "https://marutisteelsyndicate.com/about"
+              "@graph": [
+                {
+                  "@type": "AboutPage",
+                  "@id": "https://marutisteelsyndicate.com/about/#webpage",
+                  "url": "https://marutisteelsyndicate.com/about",
+                  "name": "About Maruti Steel Syndicate",
+                  "description": "Founded by Mr. Vijay Singhal, Maruti Steel Syndicate (MSS) has played a pivotal role in transforming steel distribution in North India since 1984.",
+                  "breadcrumb": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://marutisteelsyndicate.com/"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "About Us",
+                        "item": "https://marutisteelsyndicate.com/about"
+                      }
+                    ]
+                  },
+                  "mainEntity": {
+                    "@type": "LocalBusiness",
+                    "@id": "https://marutisteelsyndicate.com/#localbusiness",
+                    "name": "Maruti Steel Syndicate",
+                    "alternateName": ["MSS", "MSS Ghaziabad"],
+                    "telephone": "+919021554396",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "streetAddress": "76 & 24, Loha Mandi, Bulandshahr Road Industrial Area",
+                      "addressLocality": "Ghaziabad",
+                      "addressRegion": "Uttar Pradesh",
+                      "postalCode": "201009",
+                      "addressCountry": "IN"
+                    }
+                  }
+                }
+              ]
             }
           `}
         </script>
@@ -73,7 +110,7 @@ const About = () => {
             </div>
             <div className={styles.imageCol}>
               <div className={styles.aboutImage}>
-                <img src={legacyImg} alt="Maruti Steel Legacy" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} />
+                <img src={legacyImg} alt="Maruti Steel Syndicate Ghaziabad - 40+ Years of Steel Excellence" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} />
               </div>
             </div>
           </div>
@@ -85,7 +122,7 @@ const About = () => {
         <div className="container">
           <div className={styles.infraGrid}>
             <div className={styles.infraImage}>
-              <img src={infraImg} alt="Advanced Infrastructure" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} />
+              <img src={infraImg} alt="MSS Ghaziabad - Advanced Cut-To-Length and Slitting Processing Facility" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} />
             </div>
             <div className={styles.infraText}>
               <h2>Infrastructure & <span className="highlight">Process</span></h2>
