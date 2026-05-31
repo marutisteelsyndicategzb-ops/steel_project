@@ -12,12 +12,12 @@ const Products = () => {
         <title>Best CR Sheets, HR Sheets & Chequered Sheets in Ghaziabad | MSS</title>
         <meta name="description" content="Browse the premium industrial steel catalog of Maruti Steel Syndicate (MSS Ghaziabad). Best steel sheet dealer in Ghaziabad supplying high-quality, authentic Cold Rolled, Hot Rolled, and anti-slip Chequered sheets." />
         <meta name="keywords" content="Best Steel Sheets in Ghaziabad, Best CR Sheet in Ghaziabad, Best HR Sheet in Ghaziabad, CR Sheet Dealer Ghaziabad, HR Sheet Dealer Ghaziabad, Chequered Sheet Dealer Ghaziabad, MSS Ghaziabad products" />
-        <link rel="canonical" href="https://marutisteelsyndicate.com/products" />
+        <link rel="canonical" href="https://marutisteelsyndicate.co.in/products" />
         
         {/* Open Graph Tags */}
         <meta property="og:title" content="Best CR Sheets, HR Sheets & Chequered Sheets in Ghaziabad | MSS" />
         <meta property="og:description" content="Browse the premium industrial steel catalog of Maruti Steel Syndicate (MSS Ghaziabad). Best wholesale rates for CR, HR, and Chequered Sheets." />
-        <meta property="og:url" content="https://marutisteelsyndicate.com/products" />
+        <meta property="og:url" content="https://marutisteelsyndicate.co.in/products" />
 
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
@@ -27,8 +27,8 @@ const Products = () => {
               "@graph": [
                 {
                   "@type": "CollectionPage",
-                  "@id": "https://marutisteelsyndicate.com/products/#webpage",
-                  "url": "https://marutisteelsyndicate.com/products",
+                  "@id": "https://marutisteelsyndicate.co.in/products/#webpage",
+                  "url": "https://marutisteelsyndicate.co.in/products",
                   "name": "CR Sheets, HR Sheets & Chequered Sheets | Maruti Steel Syndicate",
                   "description": "Premium industrial steel products catalog featuring Cold Rolled (CR) Sheets, Hot Rolled (HR) Sheets and Plates, and anti-slip Chequered Sheets.",
                   "breadcrumb": {
@@ -38,13 +38,13 @@ const Products = () => {
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Home",
-                        "item": "https://marutisteelsyndicate.com/"
+                        "item": "https://marutisteelsyndicate.co.in/"
                       },
                       {
                         "@type": "ListItem",
                         "position": 2,
                         "name": "Products",
-                        "item": "https://marutisteelsyndicate.com/products"
+                        "item": "https://marutisteelsyndicate.co.in/products"
                       }
                     ]
                   },
@@ -55,19 +55,19 @@ const Products = () => {
                       {
                         "@type": "ListItem",
                         "position": 1,
-                        "url": "https://marutisteelsyndicate.com/products/cr-sheets",
+                        "url": "https://marutisteelsyndicate.co.in/products/cr-sheets",
                         "name": "Cold Rolled (CR) Sheets"
                       },
                       {
                         "@type": "ListItem",
                         "position": 2,
-                        "url": "https://marutisteelsyndicate.com/products/hr-sheets",
+                        "url": "https://marutisteelsyndicate.co.in/products/hr-sheets",
                         "name": "Hot Rolled (HR) Sheets and Plates"
                       },
                       {
                         "@type": "ListItem",
                         "position": 3,
-                        "url": "https://marutisteelsyndicate.com/products/chequered-sheets",
+                        "url": "https://marutisteelsyndicate.co.in/products/chequered-sheets",
                         "name": "Chequered Sheets"
                       }
                     ]

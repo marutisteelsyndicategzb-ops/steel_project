@@ -14,12 +14,12 @@ const About = () => {
         <title>About Us | Maruti Steel Syndicate Ghaziabad | 40+ Years of Steel Excellence</title>
         <meta name="description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), the premier steel sheet dealer in Ghaziabad. Leading wholesale distributor of authentic CR, HR, and Chequered sheets in Loha Mandi." />
         <meta name="keywords" content="About Maruti Steel Syndicate, MSS Ghaziabad, Steel Distributor Ghaziabad, Loha Mandi Steel Supplier, CR Sheets, HR Sheets, Chequered Sheets, Steel Sheet Dealer Ghaziabad" />
-        <link rel="canonical" href="https://marutisteelsyndicate.com/about" />
+        <link rel="canonical" href="https://marutisteelsyndicate.co.in/about" />
         
         {/* Open Graph Tags */}
         <meta property="og:title" content="About Us | Maruti Steel Syndicate Ghaziabad | 40+ Years of Steel Excellence" />
         <meta property="og:description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), the premier steel sheet dealer in Ghaziabad." />
-        <meta property="og:url" content="https://marutisteelsyndicate.com/about" />
+        <meta property="og:url" content="https://marutisteelsyndicate.co.in/about" />
         
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
@@ -29,8 +29,8 @@ const About = () => {
               "@graph": [
                 {
                   "@type": "AboutPage",
-                  "@id": "https://marutisteelsyndicate.com/about/#webpage",
-                  "url": "https://marutisteelsyndicate.com/about",
+                  "@id": "https://marutisteelsyndicate.co.in/about/#webpage",
+                  "url": "https://marutisteelsyndicate.co.in/about",
                   "name": "About Maruti Steel Syndicate",
                   "description": "Founded by Mr. Vijay Singhal, Maruti Steel Syndicate (MSS) has played a pivotal role in transforming steel distribution in North India since 1984.",
                   "breadcrumb": {
@@ -40,19 +40,19 @@ const About = () => {
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Home",
-                        "item": "https://marutisteelsyndicate.com/"
+                        "item": "https://marutisteelsyndicate.co.in/"
                       },
                       {
                         "@type": "ListItem",
                         "position": 2,
                         "name": "About Us",
-                        "item": "https://marutisteelsyndicate.com/about"
+                        "item": "https://marutisteelsyndicate.co.in/about"
                       }
                     ]
                   },
                   "mainEntity": {
                     "@type": "LocalBusiness",
-                    "@id": "https://marutisteelsyndicate.com/#localbusiness",
+                    "@id": "https://marutisteelsyndicate.co.in/#localbusiness",
                     "name": "Maruti Steel Syndicate",
                     "alternateName": ["MSS", "MSS Ghaziabad"],
                     "telephone": "+919021554396",

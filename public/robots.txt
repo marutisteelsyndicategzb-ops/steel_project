@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://marutisteelsyndicate.com/sitemap.xml
+Sitemap: https://marutisteelsyndicate.co.in/sitemap.xml

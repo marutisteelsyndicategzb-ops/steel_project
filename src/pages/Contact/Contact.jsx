@@ -78,12 +78,12 @@ const Contact = () => {
         <title>Contact Maruti Steel Syndicate | Steel Sheet Dealer in Ghaziabad (MSS)</title>
         <meta name="description" content="Contact Maruti Steel Syndicate (MSS Ghaziabad), the best steel sheet dealer in Ghaziabad, for bulk quotes on CR sheets, HR sheets, and Chequered sheets. Visit our Head Office in Loha Mandi or Call +91 90215 54396." />
         <meta name="keywords" content="Contact Maruti Steel Syndicate, MSS Ghaziabad Contact, Steel Supplier Phone Number Ghaziabad, Loha Mandi Steel Quotes, Buy CR Sheets NCR, Buy HR Sheets North India, steel sheet dealer Ghaziabad" />
-        <link rel="canonical" href="https://marutisteelsyndicate.com/contact" />
+        <link rel="canonical" href="https://marutisteelsyndicate.co.in/contact" />
         
         {/* Open Graph Tags */}
         <meta property="og:title" content="Contact Maruti Steel Syndicate | Steel Sheet Dealer in Ghaziabad (MSS)" />
         <meta property="og:description" content="Contact Maruti Steel Syndicate (MSS Ghaziabad) for premium industrial steel sheets bulk pricing and customized shearing quotes." />
-        <meta property="og:url" content="https://marutisteelsyndicate.com/contact" />
+        <meta property="og:url" content="https://marutisteelsyndicate.co.in/contact" />
         
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
@@ -93,8 +93,8 @@ const Contact = () => {
               "@graph": [
                 {
                   "@type": "ContactPage",
-                  "@id": "https://marutisteelsyndicate.com/contact/#webpage",
-                  "url": "https://marutisteelsyndicate.com/contact",
+                  "@id": "https://marutisteelsyndicate.co.in/contact/#webpage",
+                  "url": "https://marutisteelsyndicate.co.in/contact",
                   "name": "Contact Maruti Steel Syndicate",
                   "description": "Contact details and bulk pricing inquiry form for Maruti Steel Syndicate (MSS Ghaziabad), the premier steel sheet dealer in Ghaziabad.",
                   "breadcrumb": {
@@ -104,19 +104,19 @@ const Contact = () => {
                         "@type": "ListItem",
                         "position": 1,
                         "name": "Home",
-                        "item": "https://marutisteelsyndicate.com/"
+                        "item": "https://marutisteelsyndicate.co.in/"
                       },
                       {
                         "@type": "ListItem",
                         "position": 2,
                         "name": "Contact Us",
-                        "item": "https://marutisteelsyndicate.com/contact"
+                        "item": "https://marutisteelsyndicate.co.in/contact"
                       }
                     ]
                   },
                   "mainEntity": {
                     "@type": "LocalBusiness",
-                    "@id": "https://marutisteelsyndicate.com/#localbusiness",
+                    "@id": "https://marutisteelsyndicate.co.in/#localbusiness",
                     "name": "Maruti Steel Syndicate",
                     "alternateName": ["MSS", "MSS Ghaziabad"],
                     "telephone": "+919021554396",

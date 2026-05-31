@@ -48,12 +48,12 @@ const ProductDetail = () => {
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
         <meta name="keywords" content={pageKeywords} />
-        <link rel="canonical" href={`https://marutisteelsyndicate.com/products/${product.slug}`} />
+        <link rel="canonical" href={`https://marutisteelsyndicate.co.in/products/${product.slug}`} />
         
         {/* Open Graph Tags */}
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
-        <meta property="og:url" content={`https://marutisteelsyndicate.com/products/${product.slug}`} />
+        <meta property="og:url" content={`https://marutisteelsyndicate.co.in/products/${product.slug}`} />
         
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
@@ -63,9 +63,9 @@ const ProductDetail = () => {
               "@graph": [
                 {
                   "@type": "Product",
-                  "@id": "https://marutisteelsyndicate.com/products/${product.slug}/#product",
+                  "@id": "https://marutisteelsyndicate.co.in/products/${product.slug}/#product",
                   "name": "${product.name}",
-                  "image": "https://marutisteelsyndicate.com${product.image}",
+                  "image": "https://marutisteelsyndicate.co.in${product.image}",
                   "description": "${product.shortDescription}",
                   "brand": {
                     "@type": "Brand",
@@ -73,7 +73,7 @@ const ProductDetail = () => {
                   },
                   "offers": {
                     "@type": "AggregateOffer",
-                    "url": "https://marutisteelsyndicate.com/products/${product.slug}",
+                    "url": "https://marutisteelsyndicate.co.in/products/${product.slug}",
                     "priceCurrency": "INR",
                     "lowPrice": "Call for Price",
                     "highPrice": "Call for Price",
@@ -83,7 +83,7 @@ const ProductDetail = () => {
                     "seller": {
                       "@type": "Organization",
                       "name": "Maruti Steel Syndicate",
-                      "@id": "https://marutisteelsyndicate.com/#localbusiness"
+                      "@id": "https://marutisteelsyndicate.co.in/#localbusiness"
                     }
                   }
                 }

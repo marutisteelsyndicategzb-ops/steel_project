@@ -23,12 +23,12 @@ const Home = () => {
         <title>Maruti Steel Syndicate (MSS) | Best Steel Sheet Dealer in Ghaziabad</title>
         <meta name="description" content="Maruti Steel Syndicate (MSS) is the premier steel sheet dealer in Ghaziabad. Supplying top quality CR sheets, HR sheets, and Chequered sheets at the best wholesale prices in Loha Mandi, Ghaziabad." />
         <meta name="keywords" content="MSS, MSS Ghaziabad, Maruti Steel Syndicate, Maruti Steel Syndicate Ghaziabad, Best CR Sheet in Ghaziabad, Best HR Sheet in Ghaziabad, Best Steel Sheet Dealer in Ghaziabad, Best Steel Sheets in Ghaziabad, CR Sheet Dealer Ghaziabad, HR Sheet Dealer Ghaziabad, Chequered Sheet Dealer Ghaziabad" />
-        <link rel="canonical" href="https://marutisteelsyndicate.com/" />
+        <link rel="canonical" href="https://marutisteelsyndicate.co.in/" />
         
         {/* Open Graph Tags */}
         <meta property="og:title" content="Maruti Steel Syndicate (MSS) | Best Steel Sheet Dealer in Ghaziabad" />
         <meta property="og:description" content="Maruti Steel Syndicate (MSS) is the premier steel sheet dealer in Ghaziabad. Wholesale suppliers of high-grade CR sheets, HR sheets, and Chequered sheets." />
-        <meta property="og:url" content="https://marutisteelsyndicate.com/" />
+        <meta property="og:url" content="https://marutisteelsyndicate.co.in/" />
         
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
@@ -38,11 +38,11 @@ const Home = () => {
               "@graph": [
                 {
                   "@type": "LocalBusiness",
-                  "@id": "https://marutisteelsyndicate.com/#localbusiness",
+                  "@id": "https://marutisteelsyndicate.co.in/#localbusiness",
                   "name": "Maruti Steel Syndicate",
                   "alternateName": ["MSS", "MSS Ghaziabad"],
-                  "image": "https://marutisteelsyndicate.com/logo.png",
-                  "url": "https://marutisteelsyndicate.com/",
+                  "image": "https://marutisteelsyndicate.co.in/logo.png",
+                  "url": "https://marutisteelsyndicate.co.in/",
                   "telephone": "+919021554396",
                   "email": "marutisteelsyndicategzb@gmail.com",
                   "priceRange": "INR",
@@ -97,59 +97,59 @@ const Home = () => {
                     "closes": "18:00"
                   },
                   "sameAs": [
-                    "https://marutisteelsyndicate.com/",
+                    "https://marutisteelsyndicate.co.in/",
                     "https://www.linkedin.com/company/maruti-steel-syndicate/"
                   ]
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://marutisteelsyndicate.com/#website",
-                  "url": "https://marutisteelsyndicate.com/",
+                  "@id": "https://marutisteelsyndicate.co.in/#website",
+                  "url": "https://marutisteelsyndicate.co.in/",
                   "name": "Maruti Steel Syndicate",
                   "alternateName": ["MSS", "MSS Ghaziabad"],
                   "description": "Premium industrial CR Sheets, HR Sheets, and Chequered Sheets supplier in Ghaziabad.",
                   "publisher": {
-                    "@id": "https://marutisteelsyndicate.com/#localbusiness"
+                    "@id": "https://marutisteelsyndicate.co.in/#localbusiness"
                   },
                   "potentialAction": {
                     "@type": "SearchAction",
                     "target": {
                       "@type": "EntryPoint",
-                      "urlTemplate": "https://marutisteelsyndicate.com/products?search={search_term_string}"
+                      "urlTemplate": "https://marutisteelsyndicate.co.in/products?search={search_term_string}"
                     },
                     "query-input": "required name=search_term_string"
                   }
                 },
                 {
                   "@type": "SiteNavigationElement",
-                  "@id": "https://marutisteelsyndicate.com/#navigation",
+                  "@id": "https://marutisteelsyndicate.co.in/#navigation",
                   "name": "Home",
-                  "url": "https://marutisteelsyndicate.com/"
+                  "url": "https://marutisteelsyndicate.co.in/"
                 },
                 {
                   "@type": "SiteNavigationElement",
                   "name": "About Us",
-                  "url": "https://marutisteelsyndicate.com/about"
+                  "url": "https://marutisteelsyndicate.co.in/about"
                 },
                 {
                   "@type": "SiteNavigationElement",
                   "name": "Cold Rolled (CR) Sheets",
-                  "url": "https://marutisteelsyndicate.com/products/cr-sheets"
+                  "url": "https://marutisteelsyndicate.co.in/products/cr-sheets"
                 },
                 {
                   "@type": "SiteNavigationElement",
                   "name": "Hot Rolled (HR) Sheets",
-                  "url": "https://marutisteelsyndicate.com/products/hr-sheets"
+                  "url": "https://marutisteelsyndicate.co.in/products/hr-sheets"
                 },
                 {
                   "@type": "SiteNavigationElement",
                   "name": "Chequered Sheets",
-                  "url": "https://marutisteelsyndicate.com/products/chequered-sheets"
+                  "url": "https://marutisteelsyndicate.co.in/products/chequered-sheets"
                 },
                 {
                   "@type": "SiteNavigationElement",
                   "name": "Contact",
-                  "url": "https://marutisteelsyndicate.com/contact"
+                  "url": "https://marutisteelsyndicate.co.in/contact"
                 }
               ]
             }
