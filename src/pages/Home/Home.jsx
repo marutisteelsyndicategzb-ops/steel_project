@@ -20,14 +20,14 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Helmet>
-        <title>Maruti Steel Syndicate (MSS) | Best Steel Sheet Dealer in Ghaziabad</title>
-        <meta name="description" content="Maruti Steel Syndicate (MSS) is the premier steel sheet dealer in Ghaziabad. Supplying top quality CR sheets, HR sheets, and Chequered sheets at the best wholesale prices in Loha Mandi, Ghaziabad." />
-        <meta name="keywords" content="MSS, MSS Ghaziabad, Maruti Steel Syndicate, Maruti Steel Syndicate Ghaziabad, Best CR Sheet in Ghaziabad, Best HR Sheet in Ghaziabad, Best Steel Sheet Dealer in Ghaziabad, Best Steel Sheets in Ghaziabad, CR Sheet Dealer Ghaziabad, HR Sheet Dealer Ghaziabad, Chequered Sheet Dealer Ghaziabad" />
+        <title>Maruti Steel Syndicate (MSS) | Best HR CR Sheet Supplier in Ghaziabad</title>
+        <meta name="description" content="Maruti Steel Syndicate (MSS) is the best hr cr sheet supplier in Ghaziabad. Supplying top quality CR sheets, HR sheets, and Chequered sheets at the best wholesale prices in Loha Mandi, Ghaziabad." />
+        <meta name="keywords" content="MSS, MSS Ghaziabad, Maruti Steel Syndicate, Maruti Steel Syndicate Ghaziabad, Best CR Sheet in Ghaziabad, Best HR Sheet in Ghaziabad, Best HR CR Sheet Supplier in Ghaziabad, Best Steel Sheets in Ghaziabad, CR Sheet Supplier Ghaziabad, HR Sheet Supplier Ghaziabad, Chequered Sheet Supplier Ghaziabad" />
         <link rel="canonical" href="https://marutisteelsyndicate.co.in/" />
         
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Maruti Steel Syndicate (MSS) | Best Steel Sheet Dealer in Ghaziabad" />
-        <meta property="og:description" content="Maruti Steel Syndicate (MSS) is the premier steel sheet dealer in Ghaziabad. Wholesale suppliers of high-grade CR sheets, HR sheets, and Chequered sheets." />
+        <meta property="og:title" content="Maruti Steel Syndicate (MSS) | Best HR CR Sheet Supplier in Ghaziabad" />
+        <meta property="og:description" content="Maruti Steel Syndicate (MSS) is the best hr cr sheet supplier in Ghaziabad. Wholesale suppliers of high-grade CR sheets, HR sheets, and Chequered sheets." />
         <meta property="og:url" content="https://marutisteelsyndicate.co.in/" />
         
         {/* JSON-LD Structured Data */}
@@ -174,7 +174,7 @@ const Home = () => {
         <div className="container">
           <div className={styles.heroContent}>
             <span className={`section-label ${styles.heroLabel}`}>Welcome to Maruti Steel Syndicate</span>
-            <h1>40+ Years of <span className="highlight">Trusted Steel Excellence</span></h1>
+            <h1>HR CR Sheet Supplier in Ghaziabad <span className="highlight">Since 1984</span></h1>
             <p>Powering global infrastructure with precision-engineered CR & HR steel solutions and a legacy of uncompromising structural integrity.</p>
             <div className={styles.heroBtns}>
               <Link to="/products" className="btn btn-primary">Explore Products <ChevronRight size={18} /></Link>
@@ -240,7 +240,7 @@ const Home = () => {
               </Link>
             </div>
             <div className={styles.aboutImage}>
-              <img src={homeAboutImg} alt="Maruti Steel Syndicate - Premium Steel Sheet Dealer in Ghaziabad" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} />
+              <img src={homeAboutImg} alt="Maruti Steel Syndicate - Premium HR CR Sheet Supplier in Ghaziabad" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }} />
             </div>
           </div>
         </div>

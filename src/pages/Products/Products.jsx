@@ -10,8 +10,8 @@ const Products = () => {
     <div className={styles.productsPage}>
       <Helmet>
         <title>Best CR Sheets, HR Sheets & Chequered Sheets in Ghaziabad | MSS</title>
-        <meta name="description" content="Browse the premium industrial steel catalog of Maruti Steel Syndicate (MSS Ghaziabad). Best steel sheet dealer in Ghaziabad supplying high-quality, authentic Cold Rolled, Hot Rolled, and anti-slip Chequered sheets." />
-        <meta name="keywords" content="Best Steel Sheets in Ghaziabad, Best CR Sheet in Ghaziabad, Best HR Sheet in Ghaziabad, CR Sheet Dealer Ghaziabad, HR Sheet Dealer Ghaziabad, Chequered Sheet Dealer Ghaziabad, MSS Ghaziabad products" />
+        <meta name="description" content="Browse the premium industrial steel catalog of Maruti Steel Syndicate (MSS Ghaziabad). Best HR CR sheet supplier in Ghaziabad supplying high-quality, authentic Cold Rolled, Hot Rolled, and anti-slip Chequered sheets." />
+        <meta name="keywords" content="Best Steel Sheets in Ghaziabad, Best CR Sheet in Ghaziabad, Best HR Sheet in Ghaziabad, CR Sheet Supplier Ghaziabad, HR Sheet Supplier Ghaziabad, Chequered Sheet Supplier Ghaziabad, MSS Ghaziabad products" />
         <link rel="canonical" href="https://marutisteelsyndicate.co.in/products" />
         
         {/* Open Graph Tags */}

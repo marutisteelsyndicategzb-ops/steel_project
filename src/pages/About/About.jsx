@@ -12,13 +12,13 @@ const About = () => {
     <div className={styles.aboutPage}>
       <Helmet>
         <title>About Us | Maruti Steel Syndicate Ghaziabad | 40+ Years of Steel Excellence</title>
-        <meta name="description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), the premier steel sheet dealer in Ghaziabad. Leading wholesale distributor of authentic CR, HR, and Chequered sheets in Loha Mandi." />
-        <meta name="keywords" content="About Maruti Steel Syndicate, MSS Ghaziabad, Steel Distributor Ghaziabad, Loha Mandi Steel Supplier, CR Sheets, HR Sheets, Chequered Sheets, Steel Sheet Dealer Ghaziabad" />
+        <meta name="description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), the best HR CR sheet supplier in Ghaziabad. Leading wholesale distributor of authentic CR, HR, and Chequered sheets in Loha Mandi." />
+        <meta name="keywords" content="About Maruti Steel Syndicate, MSS Ghaziabad, Steel Distributor Ghaziabad, Loha Mandi Steel Supplier, CR Sheets, HR Sheets, Chequered Sheets, HR CR Sheet Supplier Ghaziabad" />
         <link rel="canonical" href="https://marutisteelsyndicate.co.in/about" />
         
         {/* Open Graph Tags */}
         <meta property="og:title" content="About Us | Maruti Steel Syndicate Ghaziabad | 40+ Years of Steel Excellence" />
-        <meta property="og:description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), the premier steel sheet dealer in Ghaziabad." />
+        <meta property="og:description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), the best HR CR sheet supplier in Ghaziabad." />
         <meta property="og:url" content="https://marutisteelsyndicate.co.in/about" />
         
         {/* JSON-LD Structured Data */}

@@ -25,17 +25,17 @@ const ProductDetail = () => {
   let pageKeywords = '';
 
   if (product.slug === 'cr-sheets') {
-    pageTitle = 'Best CR Sheet in Ghaziabad | Cold Rolled Sheet Dealer - Maruti Steel Syndicate (MSS)';
-    pageDescription = 'Looking for the best CR Sheet in Ghaziabad? Maruti Steel Syndicate (MSS) is the leading CR sheet dealer in Ghaziabad, supplying premium-grade IS 513 cold-rolled steel sheets with superior surface finish and precise tolerances.';
-    pageKeywords = 'Best CR Sheet in Ghaziabad, CR Sheet Dealer Ghaziabad, Cold Rolled Steel Sheets, Maruti Steel Syndicate Ghaziabad, MSS Ghaziabad, CR Sheet price Ghaziabad, Loha Mandi CR sheets';
+    pageTitle = 'Best CR Sheet in Ghaziabad | Cold Rolled Sheet Supplier - Maruti Steel Syndicate (MSS)';
+    pageDescription = 'Looking for the best CR Sheet in Ghaziabad? Maruti Steel Syndicate (MSS) is the leading CR sheet supplier in Ghaziabad, supplying premium-grade IS 513 cold-rolled steel sheets with superior surface finish and precise tolerances.';
+    pageKeywords = 'Best CR Sheet in Ghaziabad, CR Sheet Supplier Ghaziabad, Cold Rolled Steel Sheets, Maruti Steel Syndicate Ghaziabad, MSS Ghaziabad, CR Sheet price Ghaziabad, Loha Mandi CR sheets';
   } else if (product.slug === 'hr-sheets') {
-    pageTitle = 'Best HR Sheet in Ghaziabad | Hot Rolled Sheet & Plate Dealer - Maruti Steel Syndicate (MSS)';
-    pageDescription = 'Get the best HR Sheet in Ghaziabad from Maruti Steel Syndicate (MSS), the leading HR sheet dealer in Ghaziabad. Supplying robust IS 2062/ASTM A36 Hot Rolled steel sheets & plates for structural use.';
-    pageKeywords = 'Best HR Sheet in Ghaziabad, HR Sheet Dealer Ghaziabad, Hot Rolled Steel Sheets, Maruti Steel Syndicate Ghaziabad, MSS Ghaziabad, HR Sheet price Loha Mandi';
+    pageTitle = 'Best HR Sheet in Ghaziabad | Hot Rolled Sheet & Plate Supplier - Maruti Steel Syndicate (MSS)';
+    pageDescription = 'Get the best HR Sheet in Ghaziabad from Maruti Steel Syndicate (MSS), the leading HR sheet supplier in Ghaziabad. Supplying robust IS 2062/ASTM A36 Hot Rolled steel sheets & plates for structural use.';
+    pageKeywords = 'Best HR Sheet in Ghaziabad, HR Sheet Supplier Ghaziabad, Hot Rolled Steel Sheets, Maruti Steel Syndicate Ghaziabad, MSS Ghaziabad, HR Sheet price Loha Mandi';
   } else if (product.slug === 'chequered-sheets') {
-    pageTitle = 'Chequered Sheet Dealer Ghaziabad | Premium Anti-Skid Sheets - Maruti Steel Syndicate (MSS)';
-    pageDescription = 'Premier Chequered Sheet dealer in Ghaziabad. Maruti Steel Syndicate (MSS Ghaziabad) offers high-quality, anti-slip patterned steel sheets for industrial safety, flooring, and staircases. Contact us for bulk prices.';
-    pageKeywords = 'Chequered Sheet Dealer Ghaziabad, Chequered Sheets, Anti-skid Steel Plates, Maruti Steel Syndicate Ghaziabad, MSS Ghaziabad, Chequered sheets Ghaziabad price';
+    pageTitle = 'Chequered Sheet Supplier Ghaziabad | Premium Anti-Skid Sheets - Maruti Steel Syndicate (MSS)';
+    pageDescription = 'Premier Chequered Sheet supplier in Ghaziabad. Maruti Steel Syndicate (MSS Ghaziabad) offers high-quality, anti-slip patterned steel sheets for industrial safety, flooring, and staircases. Contact us for bulk prices.';
+    pageKeywords = 'Chequered Sheet Supplier Ghaziabad, Chequered Sheets, Anti-skid Steel Plates, Maruti Steel Syndicate Ghaziabad, MSS Ghaziabad, Chequered sheets Ghaziabad price';
   } else {
     pageTitle = `${product.name} | Premium Steel Supplier in Ghaziabad, NCR | Maruti Steel Syndicate`;
     pageDescription = `Buy ${product.name} in Ghaziabad, NCR, and North India. ${product.shortDescription} Best prices for industrial steel.`;

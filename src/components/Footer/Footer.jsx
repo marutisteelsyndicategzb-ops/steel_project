@@ -70,13 +70,10 @@ const Footer = () => {
             <p className={styles.gstin}>GSTIN: {companyDetails.gstin}</p>
           </div>
 
-        </div>
-
-        <div className={styles.developerCreditContainer}>
           <div className={styles.developerCredit}>
             <span>Designed & Developed by</span>
-            <a href="https://hello-world-rosy-phi.vercel.app/" target="_blank" rel="noopener noreferrer" className={styles.helloworldBadge}>
-              Helloworld <Code size={16} />
+            <a href="https://webforme.in" target="_blank" rel="noopener noreferrer" className={styles.wfmBadge}>
+              WFM <Code size={16} />
             </a>
           </div>
         </div>
