@@ -32,7 +32,7 @@ export const management = [
 export const products = [
   {
     id: "cr-sheets",
-    name: "CR Sheets",
+    name: "CR Sheets1",
     slug: "cr-sheets",
     shortDescription: "Premium Cold Rolled steel sheets, known for superior surface finish.",
     description: "Our Cold Rolled (CR) sheets represent the gold standard in surface quality and dimensional precision. These sheets undergo a rigorous cold reduction process, resulting in a smooth, high-sheen finish that is perfect for painting, plating, and complex forming. Widely used in the automotive industry, domestic appliances, and high-precision engineering projects.",
