@@ -32,7 +32,7 @@ export const management = [
 export const products = [
   {
     id: "cr-sheets",
-    name: "CR Sheets supplier in gaziabad",
+    name: "CR Sheets Supplier in Ghaziabad",
     slug: "cr-sheets",
     shortDescription: "Premium Cold Rolled steel sheets, known for superior surface finish.",
     description: "Our Cold Rolled (CR) sheets represent the gold standard in surface quality and dimensional precision. These sheets undergo a rigorous cold reduction process, resulting in a smooth, high-sheen finish that is perfect for painting, plating, and complex forming. Widely used in the automotive industry, domestic appliances, and high-precision engineering projects.",
@@ -90,7 +90,7 @@ export const products = [
   },
   {
     id: "hr-sheets",
-    name: "HR Sheets and Plates supplier in gaziabad",
+    name: "HR Sheets and Plates Supplier in Ghaziabad",
     slug: "hr-sheets",
     shortDescription: "Robust Hot Rolled steel sheets for heavy-duty structural and industrial use.",
     description: "Our Hot Rolled (HR) Sheets and Plates are engineered for strength and reliability. Processed at high temperatures, these sheets offer superior load-bearing capacity and excellent weldability. They are the preferred choice for structural frameworks, heavy machinery manufacturing, and large-scale infrastructure projects where durability is paramount.",
@@ -143,7 +143,7 @@ export const products = [
   },
   {
     id: "chequered-sheets",
-    name: "Chequered Sheets supplier in gaziabad",
+    name: "Chequered Sheets Supplier in Ghaziabad",
     slug: "chequered-sheets",
     shortDescription: "Anti-skid patterned steel plates for industrial flooring and safety.",
     description: "Designed for safety and durability, our Chequered Sheets feature a raised diamond or tear-drop pattern that provides exceptional anti-slip properties. These sheets are ideal for industrial flooring, staircases, walkways, and commercial vehicle platforms, ensuring maximum grip in high-traffic or oily environments.",

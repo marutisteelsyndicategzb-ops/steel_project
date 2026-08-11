@@ -20,13 +20,13 @@ const Home = () => {
   return (
     <div className={styles.home}>
       <Helmet>
-        <title>Maruti Steel Syndicate (MSS) | Best HR CR Sheet Supplier in Ghaziabad</title>
+        <title>Maruti Steel Syndicate (MSS) | The Best HR CR Sheet Supplier in Ghaziabad</title>
         <meta name="description" content="Maruti Steel Syndicate (MSS) is the best hr cr sheet supplier in Ghaziabad. Supplying top quality CR sheets, HR sheets, and Chequered sheets at the best wholesale prices in Loha Mandi, Ghaziabad." />
         <meta name="keywords" content="MSS, MSS Ghaziabad, Maruti Steel Syndicate, Maruti Steel Syndicate Ghaziabad, Best CR Sheet in Ghaziabad, Best HR Sheet in Ghaziabad, Best HR CR Sheet Supplier in Ghaziabad, Best Steel Sheets in Ghaziabad, CR Sheet Supplier Ghaziabad, HR Sheet Supplier Ghaziabad, Chequered Sheet Supplier Ghaziabad" />
         <link rel="canonical" href="https://marutisteelsyndicate.co.in/" />
         
         {/* Open Graph Tags */}
-        <meta property="og:title" content="Maruti Steel Syndicate (MSS) | Best HR CR Sheet Supplier in Ghaziabad" />
+        <meta property="og:title" content="Maruti Steel Syndicate (MSS) | The Best HR CR Sheet Supplier in Ghaziabad" />
         <meta property="og:description" content="Maruti Steel Syndicate (MSS) is the best hr cr sheet supplier in Ghaziabad. Wholesale suppliers of high-grade CR sheets, HR sheets, and Chequered sheets." />
         <meta property="og:url" content="https://marutisteelsyndicate.co.in/" />
         
