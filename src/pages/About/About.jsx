@@ -18,7 +18,7 @@ const About = () => {
         
         {/* Open Graph Tags */}
         <meta property="og:title" content="About Us | Maruti Steel Syndicate Ghaziabad | 40+ Years of Steel Excellence" />
-        <meta property="og:description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), the best HR CR sheet supplier in Ghaziabad." />
+        <meta property="og:description" content="Discover the 40+ year legacy of Maruti Steel Syndicate (MSS Ghaziabad), HR CR sheet supplier in Ghaziabad." />
         <meta property="og:url" content="https://marutisteelsyndicate.co.in/about" />
         
         {/* JSON-LD Structured Data */}
